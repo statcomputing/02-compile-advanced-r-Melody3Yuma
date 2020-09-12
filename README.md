@@ -21,4 +21,6 @@ Knit the file index.rmd. Error messages include:
 ## Step 3
 Build the book. It is fine to directly build git_book. However, pdf_book needs some extra work.
 
-+ Remove dpi specification from include_graphics(), instead relying on common.R. Chunk should have output.width = NULL. 
++ The font 'Inconsolata' is a main issue. I can download the font but failed to install in the correct path. 
+
+In overall, the remaining issue is a \Latex issue rather than R or Git issue. If using Windows, things may be different. In the end, I compile the pdf version of the book by using Mactex manually. The book is successfully generated (can be found in ~/adv-r/_main.pdf). The majority of the contents are there. Contents and references at the end of each session are missing compared to the git_book version (adv-r/_book/index.html)
