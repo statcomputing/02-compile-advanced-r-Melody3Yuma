@@ -23,4 +23,7 @@ Build the book. It is fine to directly build git_book. However, pdf_book needs s
 
 + The font 'Inconsolata' is a main issue. I can download the font but failed to install in the correct path. 
 
-In overall, the remaining issue is a \Latex issue rather than R or Git issue. If using Windows, things may be different. In the end, I compile the pdf version of the book by using Mactex manually. The book is successfully generated (can be found in ~/adv-r/_main.pdf). The majority of the contents are there. Contents and references at the end of each session are missing compared to the git_book version (adv-r/_book/index.html)
+In overall, the remaining issue is a {\Latex} issue rather than R or Git issue. If using Windows, things may be different. 
+
+## Conclusion
+In the end, I compiled the pdf version of the book by using Mactex manually. I changed the font from Inconsolata to Georgia. There were some other warnings but the book is successfully generated (can be found in ~/adv-r/_main.pdf). The majority of the contents are there. Table of contents and references at the end of each session are missing compared to the git_book version (adv-r/_book/index.html). 
